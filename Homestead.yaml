@@ -15,7 +15,7 @@ folders:
       to: /vagrant
 
 sites:
-    - map: site.dev
+    - map: cfp.dev
       to: /home/vagrant/cfp.dev/web
 
 databases:
