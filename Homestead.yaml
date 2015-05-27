@@ -16,7 +16,7 @@ folders:
 
 sites:
     - map: site.dev
-      to: /home/vagrant/cfp.dev/public
+      to: /home/vagrant/cfp.dev/web
 
 databases:
     - opencfp
