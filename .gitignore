@@ -14,7 +14,6 @@ opencfp.iml
 composer.phar
 deployment.properties
 deployment.xml
-/scripts
 /web/uploads/*
 !/web/uploads/dummyphoto.jpg
 phinx.yml
