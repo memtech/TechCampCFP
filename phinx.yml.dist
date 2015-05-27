@@ -14,9 +14,9 @@ environments:
     development:
         adapter: mysql
         host: localhost
-        name: cfp
-        user: root
-        pass: ''
+        name: opencfp
+        user: homestead
+        pass: 'secret'
 
     testing:
         adapter: mysql
