@@ -1,14 +1,14 @@
 application:
-  title: OpenCFP
+  title: TechCampMemphisCFP
   url: http://localhost
-  email: contact@openconf.com
+  email: joe@memphistechnology.org
   eventurl: http://localhost
-  enddate: Oct. 14th, 2016
+  enddate: Oct. 14th, 2025
   show_submission_count: false
-  airport: MIA
-  arrival: 2014-10-26
-  departure: 2014-10-31
-  secure_ssl: true
+  airport: MEM
+  arrival: 2025-10-26
+  departure: 2025-10-31
+  secure_ssl: no
 
 api:
   enabled: true
@@ -18,10 +18,10 @@ cache:
 
 database:
   host: 127.0.0.1
-  database: cfp_travis
-  dsn: mysql:dbname=cfp_travis;host=127.0.0.1
-  user: root
-  password: ~
+  database: opencfp
+  dsn: mysql:dbname=opencfp;host=127.0.0.1
+  user: homestead
+  password: secret
 
 mail:
   host: ~

@@ -5,4 +5,4 @@
 # be run after the Homestead machine is provisioned.
 echo "Running after.sh"
 
-
+vendor/bin/phinx migrate --environment=development
