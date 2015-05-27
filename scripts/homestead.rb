@@ -11,7 +11,7 @@ class Homestead
 
     # Configure The Box
     config.vm.box = "laravel/homestead"
-    config.vm.hostname = "homestead"
+    config.vm.hostname = "techcampcfp"
 
     # Configure A Private Network IP
     config.vm.network :private_network, ip: settings["ip"] ||= "192.168.10.10"
@@ -29,7 +29,7 @@ class Homestead
     # Configure A Few VMware Settings
     ["vmware_fusion", "vmware_workstation"].each do |vmware|
       config.vm.provider vmware do |v|
-        v.vmx["displayName"] = "homestead"
+        v.vmx["displayName"] = "techcampcfp"
         v.vmx["memsize"] = settings["memory"] ||= 2048
         v.vmx["numvcpus"] = settings["cpus"] ||= 1
         v.vmx["guestOS"] = "ubuntu-64"
