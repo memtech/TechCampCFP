@@ -13,3 +13,14 @@ Based on [OpenCFP](https://github.com/opencfp/opencfp)
 * Run ```cd cfp.dev```
 * Run ```bin/opencfp admin:promote email@you-registered.com```
 * You can now log in as an admin
+
+
+### Deployments
+
+You will need [Laravel/Envoy](http://laravel.com/docs/5.0/envoy) installed locally. Envoy itself requires PHP to be installed locally.
+
+You will need to contact [@Svpernova09](https://github.com/svpernova09) to get your public SSH key added.
+
+Once you have installed Envoy and your key has been added:
+
+* Run ```envoy run deploy:prod```
