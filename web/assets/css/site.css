@@ -262,6 +262,7 @@ a:hover {
 
 .event-logo {
   max-width: 100%;
+  fill: #fff;
 }
 
 .star-favorite {
