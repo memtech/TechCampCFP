@@ -5,7 +5,7 @@
             <th align='left'><b><a href="/admin/talks?sort=type">Type</a></b></th>
             <th align='left'><b><a href="/admin/talks?sort=category">Category</a></b></th>
             <th align='left'><b><a href="/admin/talks">Created On</a></b></th>
-            <th align='left'><b>Submitted by</b></th>
+            {#<th align='left'><b>Submitted by</b></th>#}
             <th>&nbsp;</th>
         </tr>
     </thead>
@@ -19,7 +19,7 @@
                 {% if false == talk.user %}
                 <td><em>Unknown User</em></td>
                 {% else %}
-                <td><a href="{{ url('admin_speaker_view', { id: talk.user.id }) }}">{{ talk.user.first_name }} {{ talk.user.last_name }}</a></td>
+                {#<td><a href="{{ url('admin_speaker_view', { id: talk.user.id }) }}">{{ talk.user.first_name }} {{ talk.user.last_name }}</a></td>#}
                 {% endif %}
                 <td>
                     <a href="#" id="talk-favorite-{{ talk.id }}" class="js-talk-favorite" data-id="{{ talk.id }}"><i class="fa fa-star star-favorite{% if talk.favorite == 1 %} star-favorite--selected{% endif %}"></i></a>
