@@ -158,7 +158,10 @@ class TalkForm extends Form
             'uiux',
             'other',
             'continuousdelivery',
-            'ibmi'
+            'ibmi',
+            'Design',
+            'Development',
+            'Marketing',
         );
 
         if (empty($this->_cleanData['category']) || !isset($this->_cleanData['category'])) {
