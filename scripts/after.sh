@@ -7,4 +7,4 @@ echo "Running after.sh"
 cp /vagrant/phinx.yml.dist /vagrant/phinx.yml
 cp /home/vagrant/cfp.dev/config/development.dist.yml /home/vagrant/cfp.dev/config/development.yml
 cd /vagrant
-vendor/bin/phinx migrate --environment=development
+./vendor/bin/phinx migrate --environment=development
