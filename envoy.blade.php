@@ -1,4 +1,4 @@
-@servers(['prod' => 'cfp.techcampmemphis.org@104.237.128.47'])
+@servers(['prod' => 'cfp.techcampmemphis.org@cfp.techcampmemphis.org'])
 
 @task('deploy:prod', ['on' => 'prod'])
 cd ~/TechCampCFP
