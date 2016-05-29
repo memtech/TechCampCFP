@@ -5,7 +5,9 @@ Based on [OpenCFP](https://github.com/opencfp/opencfp)
 ### Usage
 
 * Clone this repo
-* Add ```192.168.10.10 cfp.dev``` to your hosts file (/etc/hosts)
+* Run `composer install`
+* Run `./vendor/bin/homestead make`
+* Ensure `Homestead.yaml` contains everything from `Homestead.default`
 * Run ```vagrant up``` from the root of the project
 * Open [http://cfp.dev](http://cfp.dev) in a browser
 * Register a new account
