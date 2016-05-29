@@ -1,7 +1,7 @@
 application:
-  title: TechCampMemphisCFP
+  title: "TechCamp Memphis CFP"
   url: http://localhost
-  email: joe@joeferguson.me
+  email: joe@memphistechnology.org
   eventurl: http://cfp.techcampmemphis.org
   enddate: Oct. 14th, 2025
   show_submission_count: false
