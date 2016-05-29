@@ -18,3 +18,4 @@ deployment.xml
 !/web/uploads/dummyphoto.jpg
 phinx.yml
 Homestead.yaml
+web/stats/*
