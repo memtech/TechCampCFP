@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     Options -MultiViews
-
+    SetEnv CFP_ENV production
     RewriteEngine On
 
     RewriteCond %{HTTP:Authorization} ^(.*)
